@@ -9,6 +9,7 @@ function getGreetingTime(m) {
   if (!m || !m.isValid()) {
     return;
   }
+  
   var split_night = 24;
   var split_morning = 6;
   var split_afternoon = 12;
