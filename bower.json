@@ -1,0 +1,29 @@
+{
+  "name": "StereoCat",
+  "version": "0.0.0",
+  "authors": [
+    "Dmitry Shlyugaev <shegodmal@gmail.com>"
+  ],
+  "description": "home site by glitterofhyad",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "glitterofhyad",
+    "stereocat",
+    "dmitry shlyugaev"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "momentjs": "~2.9.0"
+  }
+}
