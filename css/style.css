@@ -1,9 +1,7 @@
-html,
-body {
+html, body {
   margin: 0;
   font-family: 'Helvetica Neue', Helvetica, Tahoma, Arial, sans-serif;
 }
-
 .hero {
   background-size: 150%;
   background-repeat: no-repeat;
@@ -14,7 +12,6 @@ body {
   animation: slide 120s ease;
   height: 100vh;
 }
-
 .hero:before {
   content: "";
   position: absolute;
@@ -23,12 +20,10 @@ body {
   height: 100%;
   background: rgba(76, 56, 75, .6)
 }
-
 .hero__content {
   z-index: 101;
   position: relative;
 }
-
 @-webkit-keyframes slide {
   0% {
     background-position: left;
@@ -40,7 +35,6 @@ body {
     background-position: left;
   }
 }
-
 @-moz-keyframes slide {
   0% {
     background-position: left;
@@ -52,7 +46,6 @@ body {
     background-position: left;
   }
 }
-
 @-o-keyframes slide {
   0% {
     background-position: left;
@@ -64,7 +57,6 @@ body {
     background-position: left;
   }
 }
-
 @keyframes slide {
   0% {
     background-position: left;
@@ -76,20 +68,17 @@ body {
     background-position: left;
   }
 }
-
 .hero h1 {
   font-size: 50px;
   font-weight: 100;
   color: white;
   margin: 0;
 }
-
 .hero__content {
   padding: 200px 100px;
   max-width: 320px;
   text-align: center;
 }
-
 .btn {
   background: #4C384B;
   width: 320px;
@@ -106,16 +95,13 @@ body {
   font-weight: 100;
   text-transform: uppercase;
 }
-
 .social {
   margin-top: 20px;
 }
-
 .social > a {
   margin-right: 5px;
   text-decoration: none;
 }
-
 .social > a > img {
   height: 100px;
   width: 100px;
