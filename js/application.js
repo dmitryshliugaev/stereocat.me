@@ -17,13 +17,13 @@ function getGreetingTime(m) {
   var currentHour = parseFloat(m.format("HH"));
 
   if (currentHour >= split_afternoon && currentHour < split_evening) {
-    g = "Добрый день!";
+    g = "Good day!";
   } else if (currentHour >= split_evening && currentHour < split_night) {
-    g = "Добрый вечер!";
+    g = "Good evening!";
   } else if (currentHour >= split_morning && currentHour < split_afternoon) {
-    g = "Доброе утро!";
+    g = "Good morning!";
   } else if (currentHour >= 0 && currentHour < split_morning) {
-    g = "Доброй ночи!";
+    g = "Good night!";
   }
 
   return g;
