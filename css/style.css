@@ -73,7 +73,7 @@ html, body {
   font-weight: 100;
   color: white;
   margin: 0;
-  letter-spacing: 1.4px;
+  letter-spacing: 1.6px;
 }
 .hero__content {
   padding: 200px 100px;
@@ -106,4 +106,16 @@ html, body {
   height: 100px;
   width: 100px;
   border-radius: 3px;
+}
+@media screen and (max-width: 800px) {
+  .hero {
+    background-size: 340%;
+    background-repeat: no-repeat;
+    background-position: left;
+    -webkit-animation: slide 120s ease;
+    -moz-animation: slide 120s ease;
+    -o-animation: slide 120s ease;
+    animation: slide 120s ease;
+    height: 100vh;
+  }
 }
