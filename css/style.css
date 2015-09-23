@@ -118,4 +118,9 @@ html, body {
     animation: slide 120s ease;
     height: 100vh;
   }
+
+  .hero__content {
+    padding: 40px 70px;
+    max-width: 320px;
+  }
 }
