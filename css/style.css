@@ -107,7 +107,7 @@ html, body {
   width: 100px;
   border-radius: 3px;
 }
-@media screen and (max-width: 980px) and (max-height: 1920px)  {
+@media screen and (max-width: 980px) and (max-height: 1920px) {
   .hero {
     background-size: 400%;
     background-repeat: no-repeat;
@@ -118,7 +118,6 @@ html, body {
     animation: slide 120s ease;
     height: 100vh;
   }
-
   .hero__content {
     padding: 48px;
   }
