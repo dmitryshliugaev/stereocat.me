@@ -120,30 +120,6 @@ html, body {
   }
 
   .hero__content {
-    margin: auto 0;
-    max-width: 700px;
-  }
-
-  .hero h1 {
-    font-size: 120px;
-    font-weight: 100;
-    color: white;
-    margin: 0;
-    text-align: center;
-    letter-spacing: 1.6px;
-  }
-
-  .social {
-    margin-top: 80px;
-    margin-left: 80px;
-  }
-  .social > a {
-    margin-right: 0px;
-    text-decoration: none;
-  }
-  .social > a > img {
-    height: 300px;
-    width: 300px;
-    border-radius: 3px;
+    padding: 48px;
   }
 }
