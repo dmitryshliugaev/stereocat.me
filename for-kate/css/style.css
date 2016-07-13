@@ -1,0 +1,17 @@
+svg {
+    overflow: visible;
+    transform: translate(0%, 3px);
+}
+
+#container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    white-space: nowrap;
+    color: #333;
+    padding: 17px;
+    padding-top: 20px;
+}
