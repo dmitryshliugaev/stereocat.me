@@ -1,17 +1,8 @@
 {
-  "name": "stereocat",
+  "name": "stereocat.me",
   "version": "1.0.0",
   "description": "My personal website [stereocat.me](http://stereocat.me)",
   "main": "gulpfile.js",
-  "dependencies": {
-    "gulp": "^3.9.1"
-  },
-  "devDependencies": {
-    "del": "^2.2.1",
-    "gulp-image-optimization": "^0.1.3",
-    "gulp-minify": "0.0.12",
-    "gulp-minify-css": "^1.2.4"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dmitryshlyugaev/Stereocat.me/issues"
   },
-  "homepage": "https://github.com/dmitryshlyugaev/Stereocat.me#readme"
+  "homepage": "https://github.com/dmitryshlyugaev/Stereocat.me#readme",
+  "devDependencies": {
+    "gulp-cssmin": "^0.1.7"
+  }
 }
