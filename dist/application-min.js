@@ -1,1 +1,0 @@
-function getGreetingTime(e){var o=null;if(e&&e.isValid()){var n=24,t=6,i=12,r=18,a=parseFloat(e.format("HH"));return a>=i&&r>a?o="Good day!":a>=r&&n>a?o="Good evening!":a>=t&&i>a?o="Good morning!":a>=0&&t>a&&(o="Good night!"),o}}$(document).ready(function(){var e=getGreetingTime(moment());$(".helloTime").text(e)});

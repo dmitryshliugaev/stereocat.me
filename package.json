@@ -8,15 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dmitryshlyugaev/Stereocat.me.git"
+    "url": "git+https://github.com/dmitryshlyugaev/stereocat.me.git"
   },
-  "author": "Dmitry Shlyugaev",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dmitryshlyugaev/Stereocat.me/issues"
+    "url": "https://github.com/dmitryshlyugaev/stereocat.me/issues"
   },
-  "homepage": "https://github.com/dmitryshlyugaev/Stereocat.me#readme",
-  "devDependencies": {
-    "gulp-cssmin": "^0.1.7"
-  }
+  "homepage": "https://github.com/dmitryshlyugaev/stereocat.me#readme"
 }
