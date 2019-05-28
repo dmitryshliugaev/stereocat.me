@@ -2,7 +2,6 @@
   "name": "stereocat.me",
   "version": "1.0.0",
   "description": "My personal website [stereocat.me](http://stereocat.me)",
-  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/dmitryshlyugaev/stereocat.me/issues"
   },
-  "homepage": "https://github.com/dmitryshlyugaev/stereocat.me#readme"
+  "homepage": "https://github.com/dmitryshlyugaev/stereocat.me#readme",
+  "main": "index.js"
 }

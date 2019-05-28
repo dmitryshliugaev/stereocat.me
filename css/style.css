@@ -44,3 +44,7 @@ a {
   margin-bottom: 3px;
   border-radius: 3px 0 0 3px;
 }
+
+p > a {
+  display: inline;
+}
